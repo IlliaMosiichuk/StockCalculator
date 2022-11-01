@@ -8,14 +8,14 @@ Prerequisites:
 
 Using Visual Studio:
 1. Open this solution in a Visual Studio
-2. Open file appsettings.json and replace a value of "DefaultConnection" to your local MS SQL Server
+2. Open file appsettings.json and replace a value of "AlphaVantageApiKey" with provided in email api key and value of "DefaultConnection" with your local MS SQL Server connection string
 - If you don't have MS SQL Server locally then uncomment "UseInMemoryDatabase" to use in memory database
 3. Set WebAPI as Startup project 
 4. Run the project
 5. Go to url https://localhost:7168/swagger/index.html to explore swagger
 
 Using command line:
-1. Open file appsettings.json and replace a value of "DefaultConnection" to your local MS SQL Server
+1. Open file appsettings.json and replace a value of "AlphaVantageApiKey" with provided in email api key and value of "DefaultConnection" with your local MS SQL Server connection string
 - If you don't have MS SQL Server locally then uncomment "UseInMemoryDatabase" to use in memory database
 2. Open a solution folder in the command line
 3. Run a command "dotnet run --project ./WebAPI/WebAPI.csproj"
